@@ -38,24 +38,33 @@
             border-radius: 10px;
             box-shadow: 0 0 15px rgba(0,0,0,0.1);
             backdrop-filter: blur(5px);
+            font-family: 'Courier New', monospace;
         }
 
         h1 {
             text-align: center;
-            color: #333;
+            color: #20B2AA;
             text-transform: uppercase;
             letter-spacing: 2px;
             margin-bottom: 30px;
-            border-bottom: 3px solid #8b0000;
+            border-bottom: 3px solid #20B2AA;
             padding-bottom: 10px;
+            font-family: 'Courier New', monospace;
         }
 
         .question {
             margin-bottom: 25px;
             padding: 15px;
             background-color: rgba(248, 248, 248, 0.9);
-            border-left: 5px solid #8b0000;
+            border-left: 5px solid #20B2AA;
             backdrop-filter: blur(3px);
+        }
+
+        .question p {
+            color: #20B2AA;
+            font-family: 'Courier New', monospace;
+            font-weight: bold;
+            font-size: 1.1em;
         }
 
         .options {
@@ -70,15 +79,19 @@
             border: 1px solid #ddd;
             cursor: pointer;
             transition: all 0.3s ease;
+            color: #FFB6C1;
+            font-family: 'Courier New', monospace;
+            font-weight: bold;
         }
 
         .option:hover {
             background-color: rgba(240, 240, 240, 0.95);
             transform: translateX(5px);
+            color: #20B2AA;
         }
 
         .selected {
-            background-color: #8b0000;
+            background-color: #20B2AA;
             color: white;
         }
 
@@ -87,7 +100,7 @@
             width: 200px;
             margin: 20px auto;
             padding: 10px;
-            background-color: #8b0000;
+            background-color: #20B2AA;
             color: white;
             border: none;
             border-radius: 5px;
@@ -95,10 +108,11 @@
             font-size: 16px;
             text-transform: uppercase;
             transition: all 0.3s ease;
+            font-family: 'Courier New', monospace;
         }
 
         #submit-btn:hover {
-            background-color: #6d0000;
+            background-color: #FFB6C1;
             transform: scale(1.05);
         }
 
@@ -110,12 +124,14 @@
             padding: 15px;
             background-color: rgba(255, 255, 255, 0.9);
             border-radius: 5px;
+            color: #20B2AA;
+            font-family: 'Courier New', monospace;
         }
 
         .stamp {
             width: 100px;
             height: 100px;
-            background-color: rgba(139, 0, 0, 0.8);
+            background-color: rgba(32, 178, 170, 0.8);
             border-radius: 50%;
             position: fixed;
             bottom: 20px;
@@ -129,6 +145,7 @@
         }
     </style>
 </head>
+<!-- Rest of your HTML and JavaScript code remains the same -->
 <body>
     <div class="quiz-container">
         <h1>Photoshop Tools Quiz</h1>
